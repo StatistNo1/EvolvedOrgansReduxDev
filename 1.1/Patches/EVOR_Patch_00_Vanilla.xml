@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
-            <li Class="EvolvedOrgansRedux.PatchOperationCombatibilitySwitchEvorVersionMidSaveUnchecked">
+            <li Class="EvolvedOrgansRedux.PatchOperationCombatibilitySwitchEorVersionMidSaveUnchecked">
                 <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
                 <order>Append</order>
                 <!--Note: These defs are applied in reverse order, so the backs will be below the body cavities-->
@@ -79,7 +79,7 @@
 					</li>
                 </value>
             </li>
-			<li Class="EvolvedOrgansRedux.PatchOperationCombatibilitySwitchEvorVersionMidSaveChecked">
+			<li Class="EvolvedOrgansRedux.PatchOperationCombatibilitySwitchEorVersionMidSaveChecked">
                 <xpath>Defs/BodyDef[defName="Human"]/corePart/parts/li[def="Waist"]</xpath>
                 <order>Prepend</order>
                 <!--Note: These defs are applied in reverse order, so the backs will be below the body cavities-->
