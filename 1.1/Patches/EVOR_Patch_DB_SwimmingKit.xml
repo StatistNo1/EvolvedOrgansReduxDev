@@ -40,7 +40,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_Leg_Swim</defName>
 							<label>hydrophobic webbed leg</label>
 							<description>By creating a new cellular mesh that is both light and durable, we can create a mesh that allows for leg mounted webbing that doesnt tear easily.</description>

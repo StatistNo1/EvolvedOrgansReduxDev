@@ -8,7 +8,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]</xpath>
+					<xpath>/Defs/ThingDef[defName="EVOR_Item_Base"]</xpath>
 					<value>
 						<tickerType>Rare</tickerType>
 						<comps>

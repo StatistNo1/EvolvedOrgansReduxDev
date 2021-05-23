@@ -57,7 +57,7 @@
     <addsHediff>EVOR_Hediff_Abd_ThirdLung</addsHediff>
     <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_ThirdLung</ThingDef></descriptionHyperlinks>
   </RecipeDef>
-
+  
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_SecondHeart</defName>
     <label>&lt;color=#00FFF7&gt;implant auxilary heart&lt;/color&gt;</label>
@@ -202,7 +202,8 @@
 
 
   <!--Hormone Surgeries-->
-  <RecipeDef Name="EVOR_Surgery_Abstract_Hormone" Abstract="True" ParentName="SurgeryFlesh">
+  <RecipeDef Name="EVOR_Surgery_Abstract_Hormone" ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Abd_Hormone</defName>
     <label>&lt;color=#00FFF7&gt;implant hormone regulator&lt;/color&gt;</label>
     <description>Implant a hormone regulator.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -240,35 +241,18 @@
         <li>EVOR_Item_Abd_Hormone</li>
       </thingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity1</li>
+      <li>BodyCavity2</li>
+      <li>BodyCavityA</li>
+    </appliedOnFixedBodyParts>
     <addsHediff>EVOR_Hediff_Abd_Hormone</addsHediff>
     <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_Hormone</ThingDef></descriptionHyperlinks>
 	</RecipeDef>
 
-  <RecipeDef ParentName="EVOR_Surgery_Abstract_Hormone">
-    <defName>EVOR_Surgery_Abd_Hormone_1</defName>
-    <appliedOnFixedBodyParts>
-      <li>BodyCavity1</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
-  <RecipeDef ParentName="EVOR_Surgery_Abstract_Hormone">
-    <defName>EVOR_Surgery_Abd_Hormone_2</defName>
-    <appliedOnFixedBodyParts>
-      <li>BodyCavity2</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
-  <RecipeDef ParentName="EVOR_Surgery_Abstract_Hormone">
-    <defName>EVOR_Surgery_Abd_Hormone_A</defName>
-    <appliedOnFixedBodyParts>
-      <li>BodyCavityA</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
-
-
-
-
-
   <!--Lymph Surgeries-->
-  <RecipeDef Name="EVOR_Surgery_Abstract_Lymph" Abstract="True" ParentName="SurgeryFlesh">
+  <RecipeDef Name="EVOR_Surgery_Abstract_Lymph" ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Abstract_Lymph</defName>
     <label>&lt;color=#00FFF7&gt;implant lymphatic proliferator&lt;/color&gt;</label>
     <description>Implant a lymphatic proliferator.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -306,28 +290,14 @@
         <li>EVOR_Item_Abd_Lymph</li>
       </thingDefs>
     </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity1</li>
+      <li>BodyCavity2</li>
+      <li>BodyCavityA</li>
+    </appliedOnFixedBodyParts>
     <addsHediff>EVOR_Hediff_Abd_Lymph</addsHediff>
     <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_Lymph</ThingDef></descriptionHyperlinks>
 	</RecipeDef>
-
-  <RecipeDef ParentName="EVOR_Surgery_Abstract_Lymph">
-    <defName>EVOR_Surgery_Abd_Lymph_1</defName>
-    <appliedOnFixedBodyParts>
-      <li>BodyCavity1</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
-  <RecipeDef ParentName="EVOR_Surgery_Abstract_Lymph">
-    <defName>EVOR_Surgery_Abd_Lymph_2</defName>
-    <appliedOnFixedBodyParts>
-      <li>BodyCavity2</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
-  <RecipeDef ParentName="EVOR_Surgery_Abstract_Lymph">
-    <defName>EVOR_Surgery_Abd_Lymph_A</defName>
-    <appliedOnFixedBodyParts>
-      <li>BodyCavityA</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_NoAge</defName>

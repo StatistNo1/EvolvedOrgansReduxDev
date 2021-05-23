@@ -14,18 +14,7 @@
   <EVOR_Item_SonicMace.description>이 팔은 소리를 증폭시켜주는 복잡하게 얽힌 구멍들과 강화된 뼈로 이루어졌습니다. 그 결과 이 메이스는 큰 혼란을 주는 음파를 만들 수 있게 되었습니다.</EVOR_Item_SonicMace.description>
 
   <EVOR_Item_PlatedLimb.label>삼중 강판 팔</EVOR_Item_PlatedLimb.label>
-  <EVOR_Item_PlatedLimb.description>팔의 조작능력을 낮추는 대신 키틴질 강판을 씌어피시술자가 치명적인 타격을 막을 수 있게 합니다.</EVOR_Item_PlatedLimb.description> <!-- <ThingDef ParentName="EVOR_OrgBase">
-    <defName>EVOR_Item_ShockTentacle</defName>
-    <label>electroshock tentacle</label>
-    <description>While not possessing strong musculature, this tentacle's main purpose is to incapacitate an opponent with strong shocks of electricity.</description>
-    <recipeMaker>
-      <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <EVOR_Resource_Protein>30</EVOR_Resource_Protein>
-      <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
-    </costList>
-  </ThingDef> --> <EVOR_Item_RendingClaw.label>날카로운 손톱</EVOR_Item_RendingClaw.label>
+  <EVOR_Item_PlatedLimb.description>팔의 조작능력을 낮추는 대신 키틴질 강판을 씌어피시술자가 치명적인 타격을 막을 수 있게 합니다.</EVOR_Item_PlatedLimb.description><EVOR_Item_RendingClaw.label>날카로운 손톱</EVOR_Item_RendingClaw.label>
   <EVOR_Item_RendingClaw.description>추가 팔보단 떨어지지만 조작능력을 향상시켜주는 손톱입니다. 또한 피시술자의 공격능력도 높입니다.</EVOR_Item_RendingClaw.description>
 
 

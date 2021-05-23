@@ -5,7 +5,7 @@
     <defName>EVOR_Research_Artifact_NornCrown</defName>
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Psychic Area Mood Profileration</label>
-    <description>With more knowledge of how the mind interacts with psychic waves, we can create an synaptic node that allows one to affect others with their mood.</description>
+    <description>With more knowledge of how the mind interacts with psychic waves, a synaptic node that allows one to affect others with their mood can be created.</description>
     <baseCost>1000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -30,7 +30,7 @@
     <defName>EVOR_Research_Artifact_ShimmerWorm</defName>
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Psuedo-Invisibility Studies</label>
-    <description>Allows us to modify our colonists to become invisible to the mind once they take damage.</description>
+    <description>By combining the hosts with an alien worms DNA it is possible to turn the host invisible when perceiving pain.</description>
     <baseCost>1000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -55,7 +55,7 @@
     <defName>EVOR_Research_Psychic1</defName>
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Psychic Synapse Network</label>
-    <description>With our extensive knowledge of the mind, we can create organs to allow us to channel this psychic power.</description>
+	<description>Thanks to research into the brain, an organ that increases the levels of psychic power can be created</description>
     <baseCost>4500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>

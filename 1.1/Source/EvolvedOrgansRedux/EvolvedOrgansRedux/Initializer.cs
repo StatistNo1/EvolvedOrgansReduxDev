@@ -8,6 +8,10 @@ namespace EvolvedOrgansRedux {
             Harmony harmony = new Harmony("EvolvedOrgansRedux");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             new AddDefsForEachModdedRace(harmony.Id);
+
+            if (Verse.LoadedModManager.GetMod<EvolvedOrgansReduxSettings>().GetSettings<Settings>().BodyPartAffinity) {
+                new BodyPartAffinity(harmony.Id);
+            }
         }
     }
 }

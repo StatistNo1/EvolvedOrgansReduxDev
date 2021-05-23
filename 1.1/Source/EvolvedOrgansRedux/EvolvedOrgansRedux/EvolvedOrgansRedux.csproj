@@ -58,6 +58,7 @@
     <Compile Include="AddBodyParts.cs" />
     <Compile Include="AddDefsForEachModdedRace.cs" />
     <Compile Include="AddMeatToRecipesFromModdedRace.cs" />
+    <Compile Include="BodyPartAffinity.cs" />
     <Compile Include="HediffComp_EVOR_ReactOnDamage.cs" />
     <Compile Include="ImmortalityGland.cs" />
     <Compile Include="PatchOperationCombatibilitySwitchEorVersionMidSave.cs" />

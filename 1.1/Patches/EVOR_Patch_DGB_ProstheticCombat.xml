@@ -12,7 +12,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_MaggotBolter</defName>
 							<label>voracious maggot bolter</label>
 							<description>By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons.</description>
@@ -26,7 +26,7 @@
 							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_MaggotBolter</RecipeDef></descriptionHyperlinks>
 						</ThingDef>
 
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_VenomCrystal</defName>
 							<label>venom crystal cannon</label>
 							<description>The crystals fired from this cannon are made of a durable chunk of solid venom, able to punch through the strongest armor and then eat though anything underneath.</description>
@@ -40,7 +40,7 @@
 							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_VenomCrystal</RecipeDef></descriptionHyperlinks>
 						</ThingDef>
 
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_CryoSlime</defName>
 							<label>cryogenic slime cannon</label>
 							<description>This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone</description>
@@ -54,7 +54,7 @@
 							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_CryoSlime</RecipeDef></descriptionHyperlinks>
 						</ThingDef>
 
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_ImpulseShock</defName>
 							<label>impulse shock blaster</label>
 							<description>Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets</description>
@@ -68,7 +68,7 @@
 							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_ImpulseShock</RecipeDef></descriptionHyperlinks>
 						</ThingDef>
 
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_KaboomSpore</defName>
 							<label>volatile spore array</label>
 							<description>These spores on the host's back can be launched in a certain direction, where they glide to the target and explode.</description>

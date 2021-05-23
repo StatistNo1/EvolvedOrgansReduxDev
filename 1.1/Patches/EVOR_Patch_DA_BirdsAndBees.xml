@@ -33,7 +33,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_ReproductiveOrgans</defName>
 							<label>efficient copulation extremity</label>
 							<description>I cannot imagine what "features" this has to make it so much better than what nature gave you.</description>

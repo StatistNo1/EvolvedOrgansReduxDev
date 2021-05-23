@@ -10,6 +10,7 @@
 
 				<!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
 				<!--Removes default costlists for crafting the items-->
+				
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[contains(defName, "EVOR_Item_")]/costList</xpath>
 				</li>
@@ -27,6 +28,7 @@
 							<li>Fabrication</li>
 							<li>VitalsMonitor</li>
 							<li>Bionics</li>
+							<li>BiofuelRefining</li>
 						</prerequisites>
 					</value>
 				</li>
@@ -45,14 +47,10 @@
 					</value>
 				</li>
 
-
-
-
-
 				<!--Removes the old protein slag, will be using QEE's instead-->
-				<li Class="PatchOperationRemove">
+				<!--<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[defName="EVOR_Resource_Protein"]</xpath>
-				</li>
+				</li>-->
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein"]</xpath>
 				</li>
@@ -74,13 +72,13 @@
 					<xpath>/Defs/WorkGiverDef[defName="EVOR_DoBills_Cellbench"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]/recipeMaker/recipeUsers</xpath>
+					<xpath>/Defs/ThingDef[defName="EVOR_Item_Base"]/recipeMaker/recipeUsers</xpath>
 				</li>
 
 				<!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
 				<!--Removes the researchPrereq for the vanilla organ recipes-->
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]/recipeMaker</xpath>
+					<xpath>/Defs/ThingDef[defName="EVOR_Item_Base"]/recipeMaker</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[contains(defName, "EVOR_Item")]/recipeMaker</xpath>
@@ -780,6 +778,33 @@
 								<EVOR_Item_Artifact_Tortoise>1</EVOR_Item_Artifact_Tortoise>
 							</products>
 							<researchPrerequisite>EVOR_Research_Artifact_Tortoise</researchPrerequisite>
+						</RecipeDef>
+						
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Artifact">
+							<defName>EVOR_QEE_NornCrown</defName>
+							<label>&lt;color=#00FFF7&gt;The Norn Crown&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Artifact_Royalty_NornCrown>1</EVOR_Item_Artifact_Royalty_NornCrown>
+							</products>
+							<researchPrerequisite>EVOR_Research_Artifact_NornCrown</researchPrerequisite>
+						</RecipeDef>
+
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Artifact">
+							<defName>EVOR_QEE_ShimmerWorms</defName>
+							<label>&lt;color=#00FFF7&gt;reactive shimmerworms&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Artifact_Royalty_ReactiveWorms>1</EVOR_Item_Artifact_Royalty_ReactiveWorms>
+							</products>
+							<researchPrerequisite>EVOR_Research_Artifact_ShimmerWorm</researchPrerequisite>
+						</RecipeDef>
+
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Artifact">
+							<defName>EVOR_QEE_Resonance</defName>
+							<label>&lt;color=#00FFF7&gt;psychic resonance tissue&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Skull_Resonance>1</EVOR_Item_Skull_Resonance>
+							</products>
+							<researchPrerequisite>EVOR_Research_Psychic1</researchPrerequisite>
 						</RecipeDef>
 					</value>
 				</li>

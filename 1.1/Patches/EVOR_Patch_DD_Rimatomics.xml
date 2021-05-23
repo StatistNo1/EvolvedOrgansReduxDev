@@ -41,7 +41,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="EVOR_OrgBase">
+						<ThingDef ParentName="EVOR_Item_Base">
 							<defName>EVOR_Item_Abd_Rad</defName>
 							<label>radiation suppressor</label>
 							<description>An organ developed to release protective protiens which insulate cells from radiation damage as well as filtering and replacing irradiated tissue.</description>
